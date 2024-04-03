@@ -84,3 +84,114 @@
     width: 33.32%;
   }
   
+.col-sm-5 {
+    width: 41.65%;
+  }
+  
+  .col-sm-6 {
+    width: 50%;
+  }
+  
+  .col-sm-7 {
+    width: 58.31%;
+  }
+  
+  .col-sm-8 {
+    width: 66.64%;
+  }
+  
+  .col-sm-9 {
+    width: 75%;
+  }
+  
+  .col-sm-10 {
+    width: 83.3%;
+  }
+  
+  .col-sm-11 {
+    width: 91.63%;
+  }
+  
+  .col-sm-12 {
+    width: 100%;
+  }
+  
+  .site-title {
+    display: none;
+  }
+  
+  .top-nav {
+    display: none;
+  }
+  
+  .navbar {
+    min-height: 48px !important;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    width: 100%;
+    align-items: center;
+    background-color: transparent;
+    left: 0;
+    z-index: 999;
+    top: 0;
+    position: absolute;
+  }
+  
+  .navbar .main-nav {
+    display: flex;
+    align-items: center;
+    padding: 24px 0;
+  }
+  
+  .navbar .main-nav .main-menu {
+    position: fixed;
+    right: -110%;
+    gap: 0 !important;
+    top: 77px;
+    flex-direction: column;
+    background-color: rgb(255 255 255 / 80%);
+    width: 100%;
+    text-align: left !important;
+    transition: 0.3s;
+    align-items: flex-start !important;
+    height: 100vh;
+    z-index: 999;
+    list-style-type: none;
+  }
+  
+  .navbar .main-nav .main-menu.active {
+    right: 0;
+    margin-top: 0;
+  }
+  
+  .navbar .main-nav .main-menu .nav-item {
+    margin: 8px 0;
+  }
+  
+  .navbar .main-nav .main-menu .nav-item .nav-link {
+    text-decoration: none;
+    color: #272a31;
+    font-size: 32px;
+    line-height: 44px;
+    padding: 8px 16px !important;
+    text-align: left !important;
+  }
+  
+  .navbar .main-nav .main-menu .nav-item .nav-link:hover {
+    color: #ec5242;
+  }
+  
+  .menu-ico {
+    display: block;
+  }
+  
+  .bar {
+    display: block;
+    width: 24px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease;
+    background-color: #272a31;
+  }
+  
