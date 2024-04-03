@@ -83,4 +83,10 @@
   .col-sm-4 {
     width: 33.32%;
   }
+/* For mobile devices up to 768px wide */
+@media only screen and (max-width: 768px) {
+  }
   
+  /* For desktop devices 768px or wider */
+  @media only screen and (min-width: 768px) {
+  }    
